@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: Thesis.aux
+The style file: astron.bst
+Reallocated field_info (elt_size=4) to 12436 items from 5000.
+Database file #1: ../hlirgs.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--can't use both author and editor fields in Lonsdale06
+You've used 338 entries,
+            2251 wiz_defined-function locations,
+            2453 strings with 86271 characters,
+and the built_in function-call counts, 174006 in all, are:
+= -- 15639
+> -- 13893
+< -- 143
++ -- 5154
+- -- 5147
+* -- 18625
+:= -- 31465
+add.period$ -- 0
+call.type$ -- 338
+change.case$ -- 3914
+chr.to.int$ -- 331
+cite$ -- 339
+duplicate$ -- 5009
+empty$ -- 7157
+format.name$ -- 5623
+if$ -- 31586
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 338
+newline$ -- 1364
+num.names$ -- 1052
+pop$ -- 3682
+preamble$ -- 1
+purify$ -- 4248
+quote$ -- 0
+skip$ -- 3676
+stack$ -- 0
+substring$ -- 7238
+swap$ -- 1207
+text.length$ -- 42
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2018
+warning$ -- 1
+while$ -- 1025
+width$ -- 0
+write$ -- 3743
+(There was 1 warning)

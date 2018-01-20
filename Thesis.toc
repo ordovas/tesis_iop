@@ -1,0 +1,31 @@
+\contentsline {chapter}{Declaraci\'on de Autor\'ia}{iii}{dummy.1}
+\vspace {1em}
+\vspace {2em}
+\contentsline {chapter}{Agradecimientos}{vii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Resumen en castellano}{viii}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{Summary}{xv}{dummy.11}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{xix}{dummy.13}
+\contentsline {chapter}{List of Tables}{xxi}{dummy.15}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.17}
+\contentsline {section}{\numberline {1.1}Active galactic nuclei}{1}{section.18}
+\contentsline {section}{\numberline {1.2}Aims of this thesis}{1}{section.19}
+\contentsline {chapter}{\numberline {2}Data}{3}{chapter.24}
+\contentsline {section}{\numberline {2.1}XMM-Newton}{3}{section.25}
+\contentsline {section}{\numberline {2.2}VLT/XSHOOTER}{3}{section.26}
+\contentsline {section}{\numberline {2.3}Optical telescopes}{3}{section.27}
+\contentsline {subsection}{\numberline {2.3.1}GTC}{3}{subsection.28}
+\contentsline {subsection}{\numberline {2.3.2}SDSS}{3}{subsection.29}
+\contentsline {chapter}{\numberline {3}Methods}{5}{chapter.30}
+\contentsline {section}{\numberline {3.1}The BUXS sample}{5}{section.31}
+\contentsline {chapter}{\numberline {4}Analysis of XSHOOTER}{7}{chapter.32}
+\contentsline {section}{\numberline {4.1}Motivation}{7}{section.33}
+\contentsline {chapter}{\numberline {5}Analysis of BUXS sample}{9}{chapter.34}
+\contentsline {section}{\numberline {5.1}Motivation}{9}{section.35}
+\contentsline {chapter}{\numberline {6}Conclusions and future work}{11}{chapter.36}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Tables }{13}{appendix.37}
+\vspace {2em}
+\contentsline {chapter}{References}{15}{dummy.38}

@@ -1,10 +1,36 @@
 %Chapter 3
 
 \chapter{Methods} % Write in your own chapter title
-\label{chap:xray}
+\label{chap:methods}
 \lhead{Chapter 3. \emph{Methods}} % Write in your own chapter title to set the page header
 
+           
+%- BUXS y submuestra de tipos-1
+%- Ajustes y extracción rayos-X
+%- Ajustes del contínuo óptico/NIR de AGN
+% - Ajustes de líneas
 
+             - SEDs
 \section{The BUXS sample}
-\label{sec3:intro}
-X-ray studies 
+\label{sec3:buxs}
+In this section we explain how the BUXS sample is selected and the final selection, optical completeness.
+
+\section{X-ray extraction and modeling}
+\label{sec3:xray}
+
+In this section we explain how the X-ray data were treated. We explain that we combine all the avaliable observations. Afther that sources were extracted, so we explain how and takl about background substraction as well. Apart from that we explain the spectral modeling. This is how we select the best model, how we calculate the parametersa as the luminosity and nh and how compute errors.
+
+\section{Optical spectral continuum modeling}
+\label{sec3:op}
+
+In this section we explain the reduction of an optical spectrum. We may disntinguish between echelle of xshooter and longslit spectra from other telescopes.
+
+Apart from that we explain the ways of fitting the optical spectra. We talk about STARLIGHT for the xshooter, and sherpa for the BUXS sample. 
+
+The general model is AGN plus SMC exxtinction and additive host galaxy model. For some objects where we have data in the high order f the Balmer lines and higher, it is neccesary to introduce FeII and Balmer Continum emission, so we describe all the components here.
+
+
+\section{Optical emision lines fits}
+\label{sec3:lines}
+
+Here we describe the H$_{\rm \alpha}$, H$_{\rm \beta}$ and MgII line fit models. The NLR uses the same width in velocity. We use the FWHM and flux as free parameters.

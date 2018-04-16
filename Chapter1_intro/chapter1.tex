@@ -4,67 +4,358 @@
 \label{chap:intro}
 \lhead{Chapter 1. \emph{Introduction}}
 
-Begin with observational evidence of AGN. They are extragalactic sources whose main power is not from the stellar nuclear reactions. After that we prove that given the luminosity, time variability and density of energy, the origin is a Supermassive black hole.
+During the 18th and 19th centuries, it was not clear that some of the ‘nebulas’ seen in the sky were part of our galaxy, or they were ‘islands-universes’ compound by stars \citep{kant1755}. Since the discovery in 1924 of a Cepheid variable star in M31 \citep{hubble29}, it became clear that some of them were extragalactic objects, or more precisely, they were galaxies like the Milky way. Using spectroscopic analysis, soon it became clear as well that some of the galaxies showed emission lines of highly ionized elements in the nuclei \citep{seyfert43} that cannot be explained just by the emission mechanisms of the stars, and so this emission is originated by a completely different phenomena. In some of this galaxies, this non stellar radiation completely outshines the galaxy starlight. This objects are called ‘Active Galactic Nuclei’ (AGN). 
 
-After that mention that the AGN are long lived objects, that given its visibility we can detect them at high redshifts, and then are a useful tool to study the evolution of the universe.
 
-AGN are very important to understand the evolution of the galaxies, as there is a coevolution of SMBH and host galaxies via feedback.
+Nowadays, it is widely accepted that the origin of this emission is due to supermassive black holes (SMBH) of $>$10$^{6}$  $\Msol$ in the centre of the active galaxy, whose immense gravitational potential is converted to emission due to very different mechanisms associated to the black hole, such as accretion of matter into the SMBH, incandescence or scattering of charged particles, among others (see Sec. \ref{sec1:em} for a more detailed explanation). The reasons to accept that the SMBH are the objects responsible of this highly energetic phenomena are various. The emission of normal or quiescent galaxies is produced almost entirely by stars, and its emission is mainly constrained between UV and IR light. Meanwhile, AGN show emission across all the electromagnetic spectrum, from the gamma rays to radio energies. This means that active galaxies emits in over twenty orders of magnitude in frequency. The luminosity of the AGN ranges from bolometric luminosities of 10$^{40}$ erg/s, comparable to the emission of quiescent galaxies (\Lbol $<$ 10$^{42}$ erg/s), to luminosities of 10$^{48}$ erg/s. The active nuclei emission frequently outshines the host galaxy starlight due to this high luminosities. Depending on the energy band observed, AGN show strong time variability of years (optical/IR), days (UV) or minutes (X-rays). The time variability measurements of the AGN emission leaves not doubt that it is originated in a compact region of the order of miliparsecs. Taking together the high luminosity of the nuclei emission and the compact region where they are originated, it is implied that AGN are objects with tremendous energy densities, only explainable by accretion into the SMBH in the core of the galaxy. 
 
-After that we may mention the X-ray background, compound by AGNs. In the soft energies the background is explained, but at hard energies is not. The obscured AGN still are something not completely understood. That is why we must study the extinction in AGNs. Extinction plays a major role in AGN subdivision in types that is not following unified models for part of the population.
+
+There are evidences of that almost every galaxy harbors a SMBH in the nuclei with a mass in the range of millions to billions of solar masses \citep{magorrian98}, but as the one in the Milky Way (10$^6$ $\Msol$), not all of them are active. The host galaxy has a tight relation with its SMBH in the core of the galaxy. The \MSMBH /$\sigma$, \MSMBH/\Mhost,  \MSMBH/L$_{host}$  plots show an evidence that both quantities are very related. It has been found that there is a coevolution of the black hole and the galaxy, so AGN are considered a stage in galactic evolution that can be created by accretion or galaxy mergers. The power of the winds of the AGN stops the star formation, as this feedback crosses all the galaxy \citep{fabian12}. This means that the growth of the AGN is linked with the galaxy evolution \citep{kormendy13}.
+
+As active galaxies are the most luminous and long lived objects in the Universe, they are visible at a large range of distances. In addition, the most distant object to the date is an AGN at z=7.085 \citep{mortlock11}, when the universe was only about a 10\% of its actual age. This also means that this object is the one closest objects in time to the Big Bang. The study of AGN therefore is a key to understand the evolution of the cosmos since the universe was very young. 
+
+
+The Cosmic X-ray Background (CXRB) spectrum is the composition of the total AGN emission. From the analysis of the power law index of this spectrum, it is clear that not all of the AGNs are unobscured. The power law is harder ($\Gamma_{CXRB}\simeq$1.4 at E$<$10 keV) than an unobscured AGN ($\Gamma_{AGN}\simeq$1.9), and X-ray absorption have more effect at lower energies. In order to match models with the observations, we must introduce a fraction of absorbed AGN and highly absorbed AGN whose extinction is Compton thick (\NH$>$10$^{24}$\cm). The CXRB, using this assumption, is explained with a majority of absorbed AGN ,but to the date, this fraction of obscured sources is still unclear (\citealt{setti89}, \citealt{comastri95}). The extinction of these sources plays a major role in understanding the intrinsic properties of AGN.
+
+All of this facts are pieces of evidences of the big importance of the study of AGN. In this thesis we work on understanding the environment of the AGN through its emission properties and the optical extinction and X-ray absorption of these objects. This is an important aspect of AGN, as there are some open questions to the date that challenges the Unified Model of AGN  (see Sec. \ref{sec1:um}). 
 
 
 \section{Unified Model of AGN}
 \label{sec1:um}
 
-List all the regions of the unified model and where the emission mechanisms are originated.
+There is a great variety of AGN with different observational properties whose power is originated by the same mechanism, that is the accretion to the SMBH, so an Unified Model of AGN was proposed to explain this diversity (\citealt{antonucci93}, \citealt{urry95}). In this model, the observed differences between each class of AGN is dependent on the orientation. The Unified Model, schematically represented in Fig.~\ref{sec1:fig_um}, have the following components:
 
--Disk: infalling material that emits in the optical/UV
--Corona: inverse compton scattered emission that is triggered by the accretion disk
--BLR: ionized gas region outside the disk.
--NLR:less ionized material outside de BLR
--Torus:Dusty region surrounding the BLR,disk,corona
--Jets: polar radio emission.
+
+
+
+ \begin{figure}
+ \centering
+ %\includegraphics[width=8.5cm]{Chapter1_intro/umagn.ps}
+ \includegraphics[width=9cm]{Chapter1_intro/umagn.ps}
+ \includegraphics[width=9cm]{Chapter1_intro/agnanatomy.ps} 
+    \caption{Up: Artistic representation of the Unified Model of AGN (credit: C.M. Urry and P. Padovani). Down: Skech of the componets of the Unified Model and its distance to the central SMBH (credit: K. Gebhardt webpage).}
+ \label{sec1:fig_um}
+ \end{figure}
+
+
+
+\begin{enumerate}
+\item \textbf{Accretion disk:} The material falling into the SMBH forms a thin disk optically thick whose size is estimated to be of $\sim$10$^{-2}$ pc. The disc emission is a multi-component black body of T$\sim$10$^{5\pm 1}$K
+
+\item \textbf{SMBH corona:} This is where the X-ray emission is originated and it is thought to be linked to the accretion disk forming a system. The hot plasma in the corona is hit by photons from the disk. A fraction of them, due to inverse Compton scattering, is reflected in the hard X-rays. This direct relation between the corona and the accretion disk is clear in the linear relation between the hard X-rays and the UV luminosity. Other photons are radiated back to the accretion disk. This contributes to maintain the accretion disk balanced and to form the corona-accretion disk system.
+
+\item \textbf{Boad Line Region (BLR):} This region is formed by dust-free clouds of highly ionized gas. From the difference of line ratios from the core to the wings of the broad lines, it is indicated that this region is not a thin spherical shell \citep{crenshaw86}. The material on the BLR is believed to form clouds orbiting at high velocities around the black hole. This clouds are thought to be at the far end of the accretion disk at a distance of 0.01-0.1 pc from the SMBH. The opening angle of this region is unknown to the date. This region explains the broad emission lines observed in the UV/optical spectrum with a large Doppler broadening of FWHM velocities of $>$1500 km/s. The emission of the disk ionizes this region producing the broad permitted lines in emission detected in the AGN spectrum. From line diagnostics, it is expected that its clouds are dense ($\sim$10$^9$ cm$^{-3}$) and reaching temperatures of T$\sim$20000 K. For some objects there are detected other ‘sub-regions’ of the BLR, such as an intermediate line region (ILR) and a very broad line region (VBLR).
+
+
+\item \textbf{Narrow Line Region (NLR):} The narrow lines observed in the UV/optical spectrum of AGN have FWHM velocities comparable to the host galaxy bulge stellar velocity. This lines are produced by the emission of gas clouds further away from the central engine ($\sim$100 pc), and hence, with lower ionization than in the BLR and not affected by variability. The lines produced in the NLR are forbidden and permitted lines that are excited by the accretion disk emission. From line diagnostics, it is expected that the clouds are less dense (10$^{3}$ cm$^{-3}$) and cooler (T$\sim$18000K) than the BLR. There is no transition region between the BLR and the NLR, they are completely separated regions in the AGN model.
+
+
+\item \textbf{Torus:}  Outside of the BLR, there is a dusty region with a toroidal geometry surrounding the black hole at a distance of $\sim$1 pc. This component is the key to explain the variations in the observed spectrum of the different AGN classes. Depending on the angle of view, covers the corona, accretion disk and BLR emission (in the case of a type-2 AGN), or gives a clear view of these central regions (type-1 AGN). More recent studies assume the dust to reside in clumps rather than being smoothly distributed. The nuclear emission is absorbed and scattered, and hence it heats the dust and re-emits it at NIR/FIR frequencies. This is not the only source of the emission at NIR/FIR, as dust also emits at these frequencies in the polar outflow of the AGN \citep{honig17}. 
+
+\item \textbf{Radio Jet:} The jets are originated at the sub-parsec scales of the AGN and can often be traced up to distances of the order of kpc or Mpc. The radio emission is due to synchrotron emission of electrons ejected at relativistic energies in the polar direction. Large-scale jets are usually divided into FR I and FR II jets \citep{fanaroff74}. FR I jets have low luminosity ($<$10$^{41}$ erg/s) that ends in radio lobes. FR II jets have a high luminosity ($>$10$^{41}$ erg/s) collimated jet that ends in hotspots.
+
+
+\end{enumerate}
+
+The different regions in the Unified Model emmits at different wavelengths due to different emission mechanisms. In the following section we explain the different contributions to the spectral energy distribution (SED) with respect to this model.
+
+
 
 
 \section{Physical mechanisms of emission}
-\label{sec1:agn}
-Describe the emission mechanisms of the AGN in each wavelength. This is:
+\label{sec1:em}
 
-Radio: introducing two types that contributes differently to the bolometric luminosity, but later on we will explain more.
-IR: Emission from the heated dust, forming a IR bump.
-Optical/UV: THe Big Blue Bump, that also have broad and narrow emission lines. THere are pseudo continuum contribution that are blends of lines and not a real continuum emission:
-X-ray: power law emission. Maybe in this part introduce as well all the physical origins of X-ray emission
-Gamma-ray: for the non-thermal continuum, of Blazards
+We pointed out that AGN are detected in a wide range of energy ranges. In this section we list and explain the AGN emission in each of the available observational windows, and where are originated taking into account the Unified Model described in the previous section. In Fig. \ref{sec1:fig_sed} we show the complete SED of a normal AGN.
 
-We may put as a subsection the extinction?
+
+ \begin{figure}
+ \centering
+ \includegraphics[width=11cm]{Chapter1_intro/agnsed.ps}
+    \caption{Typical SED of a few types of AGN from \cite{beckmann12}.}
+ \label{sec1:fig_sed}
+ \end{figure}
+
+
+\begin{enumerate}
+
+\item \textbf{Radio emission:} The radio spectrum is well described with a power law, indicating a non-thermal origin (synchrotron emission, see Sec.~\ref{sec1:syem}). There are two subclasses of active galaxies, that are Radio Loud (RL) AGN and Radio Quiet (RQ) AGN, depending on the ratio of the optical emission and the radio emission (see Sec.~\ref{sec1:class}). 
+
+\item \textbf{IR emission:} the IR component is generally attributed to thermal emission from dust at a wide range of temperatures ($\sim$ 50 -1000 K). This is called the IR bump. The inflection at the blue side of the Bump is produced at $\sim$1 \um. This would correspond to the maximum temperature which dust could survive, that is around 1000-2000 K, depending on the composition of the dust grains. The IR bump peaks at 60 \um and falls dramatically in the submillimetre until the radio continuum. The radio emission, with respecto to this IR emission, drops in flux about 5-6 orders of magnitude for RQ AGN, or roughly 2 orders for RL AGN
+
+
+
+\item \textbf{UV/optical emission:} The shape of the UV/continuum emission can be modeled with a multi-component black body of T$\sim$10$^{5\pm1}$K. This is feature of the SED is called the Big Blue Bump (BBB), and usually is the peak of the AGN luminosity. The relative strengths of the IR and Big Blue bumps are generally comparable, but is not the same for all AGN. Superimposed to this featureless continuum there are permitted emission lines, with full width at half-maximum (FWHM) velocities of $>$1000 km/s from the Broad line region, and both permitted and forbidden and other emission lines with FWHM velocities comparable with the ones of the stellar at the bulge. In addition, there are blends that form pseudo continuum regions originated by two elements: one is the FeII pseudo continuum, with velocities comparable to the ones of the broad lines or slightly lower, and the continuum produced the by  the high order Balmer lines. In particular there is a bump at the wavelength region of the MgII line called the Small Blue Bump, that is formed by a combination of those two blends.  
+
+\item \textbf{X-ray emission:} The emission in the X-rays is mainly a power law emission extending from 1keV to over 100 keV. In the energy space the flux can be modeled with a power law F$_E\sim$E$^{-\Gamma}$, being the photon index around $\Gamma\sim$1.9. Below 2 keV, an emission excess is visible in the X-ray continuum (the ’soft excess’) in 30\% of AGN. The origin is not clear, but is sometimes associated to thermal emission linked to the accretion disk or collisionally-ionized diffuse gas. At energies harder than 10 keV, it is sometimes detected the presence of an exponential term that peaks around 80-300 keV and a bump that peaks at 30 keV (the ’Compton reflection hump’). This spectral feature is often explained as reflection of the direct X-ray continuum in the accretion disk or the molecular torus \citep{turner09}. For some AGN it is visible a strong emission line at 6.4 keV, that is the fluorescent Fe K$\alpha$ line.
+
+\item \textbf{Gamma ray emission:} Blazars, a subclass of AGN, emits the majority of the bolometric luminosity above 100MeV. The spectrum of this sources is characterized by a non-thermal continuum, a flat radio spectrum and a featureless optical spectrum with strong variability and polarization.
+
+\end{enumerate}
+
+
+The main ingredient for the conversion of the gravitational energy to emission is the accretion of material into the SMBH. Comparing the bolometric luminosity of the AGN with the maximum luminosity that the SMBH can irradiate (the Eddington luminosity, L$_{Edd}$), we can estimate the accretion of the AGN (the Eddington ratio, $\lambda$), assuming normally accretion efficiencies of about $\epsilon\sim$0.1. In the literature we can find objects accreting at very low Eddington ratios ($\lambda$=10$^{-2}$-10$^{-3}$) to objects emitting at super-Eddington ratios \citep{raimundo09}.
+
+This thesis focus more in the X-ray and UV/optical emission, so below we are explaining in a deeper way the emission mechanisms responsible of the emision at these energies. In Fig.~\ref{sec1:fig_xe} we are showing the components of the X-ray emission of an AGN. In Fig.~\ref{sec1:fig_oe} we are showing composite AGN spectra from \cite{shen16} to help to understand the intrinsic UV/optical emission of an average AGN. 
+
+
+ \begin{figure}
+ \centering
+ \includegraphics[width=\textwidth]{Chapter1_intro/xagn.ps}
+    \caption{X-ray spectrum for a normal AGN, with the different components of the X-ray emission overplotted with different colors. Figure from \cite{risaliti04}.}
+ \label{sec1:fig_xe}
+ \end{figure}
+
+
+\subsection{Primary X-ray emission}
+\label{sec1:xem}
+
+\subsubsection{Free-free emission}
+\label{sec1:ffem}
+
+Also called Bremsstrahlung emission, this is produced when free electrons are accelerated or decelerated in the Coulomb field of an atomic ionized nuclei and radiate energy. When a charged particle approaches to other one it will be deflected, and hence it will change the movement by accelerating or decelerating. This change of momentum of the two charges will provoke the emission of a photon whose amplitude is proportional to the charge of the two interacting particles in this process. In AGN this emission could be originated in a hot ionized gas near the SMBH. The medium of the BLR could be opaque to the free-free radiation meanwhile low density nebulae are optically thin to this radiation \citep{netzer90}.
+
+\subsubsection{Sycrotron emission}
+\label{sec1:syem}
+
+This is the radiation produced when the charged particles are accelerating at relativistic velocities in a magnetic field. The particle changes direction due to the perpendicular force. The photon emitted is proportional to the energy of the electron, the magnetic field, and the angle between those two vectors.
+
+\subsubsection{Inverse Compton scattering}
+\label{sec1:csem}
+
+The inverse Compton scattering is the main contribution to the X-ray emission. This is produced by the interaction of low energy photons with high energy electrons, resulting in a gain of energy by the photons. The photons from the accretion disk that are emitted in the UV/optical energies interact with the electrons in the hot corona of the SMHB moving at relativistic energies. The emission of this phenomena is a power-law X-ray spectrum with a typical slope of $\Gamma$=1.9 (\citealt{caccianiga04}, \citealt{gaalbiati05}, \citealt{mateos05a}, \citealt{mateos05b}, \citealt{tozzi06}, \citealt{mateos10}, \citealt{corral11}).
+
+\subsection{X-ray reflection}
+\label{sec1:xrem}
+
+X-ray photons at lower energies tends to be more absorbed than scattered, meanwhile photons at hard energies are more likely to be reflected. This provokes that the reflection spectrum of an AGN is a bump between 5-10 keV peaking at $\sim$30 keV, that produces a flattening of the spectral slope at hard energies.
+
+\subsection{Fe emission line}
+\label{sec1:feem}
+
+There is often detected an emission line at 6.4 keV. This is the  Fe-K line of the transition n=2-1 for $\leq$FeXVII. The presence of this line is thought to be provoked by fluorescence in the inner part of the accretion disk. The typical EW of the line is 100 - 200 eV. The line has an asymmetrical profile with a red wing, but generally the X-ray spectra quality is not enough to show it.
+
+
+
+
+
+\subsection{Emission in the UV/Optical range}
+\label{sec1:opem}
+
+
+ \begin{figure}
+ \centering
+ \includegraphics[width=\textwidth]{Chapter1_intro/test_shen_agn.ps}
+    \caption{UV/optical QSO template from \cite{shen16}. TEMPORAL.}
+ \label{sec1:fig_oe}
+ \end{figure}
+
+
+\subsubsection{UV/Optical continuum}
+\label{sec1:coem}
+
+When matter approaches to a massive object with a high angular momentum, it falls forming an accretion disk. The disk has annuli at many different temperatures so it is a sum of many blackbody spectra with a T$_{eff}\sim$10$^5$ K, that peakes at the UV/optical. This is the origin of the featureless blue continuum in the spectrum of an AGN. Redwards 10000 \AA, the continuum slope changes due to the emission from the IR bump originated in the torus. The emission off AGN in the UV/optical range is compound by a sum of a featureless continuum from the accretion disk, and emission lines from the NLR and the BLR. The other continuum contributions are blends of emission lines (like FeII) and bound-free pseudocontinuum of the Balmer lines, that are explained in the following section.
+
+\subsubsection{Emission lines}
+\label{sec1:liem}
+
+The most likely source of power for the UV/optical AGN emission lines to be produced is the photoionization \citep{netzer90}. The origin of the radiation that ionizes the material is the direct UV radiation of the disk. For the broad lines there are models that separates the region where the low ionization (Balmer lines, FeII, MgII) and high ionization (Ly$_{\alpha}$, CIV, CIII]) lines are emitted. The latter are likely emitted by a dilute outflowing medium, while the low ionization broad lines come mainly from material located at the outer regions of the accretion disk \citep{netzer90}. The narrow line spectrum of type-1 and type-2 are very similar, but in some type-1 AGN there are much stronger highly ionized lines, that are emitted closer to the central engine \citep{ferguson97}.
+
+In this thesis we are focusing more in a wavelength range redwards $\sim$2000 \AA. In this region the most conspicuous broad emission lines are, from blue to red wavelength rest-frame core of the line, MgII, \Hb and \Ha. There are other broad emission lines, but they are less prominent, such as the ones from the Balmer series of the Hydrogen, and in the infrared, the ones from the Paschen series. The FeII emission comes from the outer parts of the BLR, as they are usually found to have FWHM velocities of 0.8-1.0 times the \Hb ones \citep{osterbrock91}. They form a pseudo continuum, that is most prominent in the region of the MgII line (the Small Blue Bump, SBB), and two small regions bluewards and redwards \Hb. Nearly all broad line AGNs have optical FeII emission in their spectrum. The FeII strength is usually measured by the quantity R4570=FeII $\lambda$4570/\Hb, being  FeII $\lambda$4570 the flux of the FeII contribution measured between $\lambda$=4434-4684 \AA~and \Hb the one of the total \Hb contribution. As mentioned in \cite{veroncetty00}, this ratio is $\sim$0.1-1 for the vast majority of objects. Only a 5\% of AGN have R4570$>$1. Other pseudocontinuum from the BLR is the one formed by the stacking of the high order Balmer lines and bluewards 3646 \AA~the bound-free Balmer Continuum. This contribution appears in the SBB, along with part of the FeII emission. Normally. The forbidden narrow emission lines that are most prominent are the ones from the [OII] line, the [OIII] emission near \Hb, the [OI] line, and the doublets near \Ha from [NII] and [SII] elements. In addition, in the spectrum there are visible the narrow emission lines of the Hydrogen Balmer series.
+
+
+The emission lines have the shape of a lorentzian profile. The velocity dispersion of the emitted material makes that the shape of the line is a gaussian profile due to Doppler broadening, as it is the dominant contribution to the width. For the broad emission lines, the centre of the line is displaced with respect to the rest-frame (\citealt{sulentic00}, \citealt{steinhardt12}, \citealt{gaskell13}). The narrow lines are not displaced but sometimes due to outflows it can be detected an extra blue component in addition to the rest frame narrow emission lines.  
+
+This are the general and most prominent characteristics of AGN emission. Nevertheless, active galaxies present a great variety of spectra. The presence or absence and the relative strength of some of the features shown in this section leads to different AGN classifications.
+
+
+
 
 
 
 \section{Classification of AGN}
 \label{sec1:class}
 
-Here we describe the classification and subclassification of AGN.
 
--We first explain the orientation effects in the observed spectra and SED with a figure where it is seen the type depending on the orientation.
+Given the Unified Model mentioned in Sec. \ref{sec1:um} the observed spectra will depend on the orientation of the source with respect to the observer. The emision of AGN is detailed in  Sec. \ref{sec1:em}, but some of the features may be obscured or not present in the spectrum. This leads to a vast variety of classes of AGN. In this section we will detail the different classifications in the AGN zoo putting them in context with the Unified Model and the radiation that is detected by the observer. To help the reader to understand the differences and the variety of AGN classes we include a scheme in Fig.~\ref{sec1:fig_clas}.
 
--After that we put a table and explain other classifications where there is dependency on other factors as the luminosity (QSO) or FE emission/FWHM (NLS1)
 
--We introduce as well the subclassification within type-1 linking it with different levels of extinction
 
-If not mentioned before, we focus on classification of type-1 and 2 based on X-ray and optical data.
+ \begin{figure}
+ \centering
+ %\includegraphics[width=8.5cm]{Chapter1_intro/umagn.ps}
+ \includegraphics[width=\textwidth]{Chapter1_intro/clasagn.ps}
+    \caption{Schematic representation of the Unified model of AGN from \cite{beckmann12} and the different classification of the AGN incoming radiation depending on the viewing angle. }
+ \label{sec1:fig_clas}
+ \end{figure}
+
+
+
+In the literature it can be found a wide variety of AGN classes and subclasses. This vast variety can be explained by a variation on very small number of parameters, such as orientation (see  Sec. \ref{sec1:um}), luminosity, variability, relative emission in some wavelengths windows, presence or absence of broad and narrow emission or absorption lines and host galaxy contribution. In Table \ref{sec1:tab_clas} we show some of the classes seen in the literature.
+
+As mentioned in Sec. \ref{sec1:em}, AGN are divided into Radio Loud (RL) and Radio Quiet (RQ) based on the relative strength of the radio emission. This is based on the relative radio emission based on the radio loudness parameter R. This is the ratio of the 5 GHz flux to the optical (B-band) emission. RL AGN are the ones that the ratio R is larger than 10, and are approximately a 10 percent of the total AGN population. Radio emission for RL is between 2 and 4 orders of magnitude larger than the RQ AGN.
+
+Other division is made in terms of the luminosity, that is the distinction between Seyfert galaxies and Quasar (QSO), to most luminous class of AGN. If the source have a magnitude in the B band higher than M$_{B}<$-21.5 mag, the AGN can be considered as a Quasar.
+
+
+%\begin{table}
+%\begin{center}
+%
+%\begin{tabular}{lll}
+\begin{tiny}
+
+
+\begin{table} %{| p{.10\textwidth} | p{.90\textwidth} |} 
+\begin{center}
+\caption{The AGN zoo: list of AGN classes.}
+\begin{tabular}{lll}
+\hline
+Class/Acronym & Meaning & Main properties/reference\\
+\hline
+Quasar &Quasi-stellar radio source (originally) & Radio detection no longer required \\
+Sey1 & Seyfert 1 & FWHM $\gtrsim 1000$ km s$^{-1}$ \\
+Sey2 & Seyfert 2 & FWHM $\lesssim 1000$ km s$^{-1}$  \\
+QSO &Quasi-stellar object & Quasar-like, non-radio source \\
+QSO2 &Quasi-stellar object 2 & High power Sey2\\
+RQ AGN & Radio-quiet AGN & see ref. 1\\
+RL AGN & Radio-loud AGN & see ref. 1\\
+Jetted AGN & & with strong relativistic jets;  see ref. 1\\
+Non-jetted AGN & & without strong relativistic jets;  see ref. 1\\
+Type 1 & & Sey1 and quasars\\
+Type 2 & & Sey2 and QSO2\\
+FR I &Fanaroff-Riley class I radio source & radio core-brightened (ref. 2)\\
+FR II &Fanaroff-Riley class II radio source & radio edge-brightened (ref. 2)\\
+BL Lac & BL Lacertae object & see ref. 3\\
+Blazar & BL Lac and quasar & BL Lacs and FSRQs\\
+\hline
+BAL & Broad absorption line (quasar) & ref. 4\\
+BLO &Broad-line object & FWHM $\gtrsim 1000$ km s$^{-1}$   \\
+BLAGN &Broad-line AGN & FWHM $\gtrsim 1000$ km s$^{-1}$  \\
+BLRG &Broad-line radio galaxy & RL Sey1 \\
+CDQ & Core-dominated quasar & RL AGN, $f_{\rm core} \ge f_{\rm ext}$ (same as FSRQ)\\
+CSS &Compact steep spectrum radio source & core dominated, $\alpha_{\rm r} > 0.5$ \\
+CT & Compton-thick & $N_{\rm H} \ge 1.5 \times 10^{24}$ cm$^{-2}$  \\
+FR 0 &Fanaroff-Riley class 0 radio source & ref. 5 \\
+FSRQ &Flat-spectrum radio quasar & RL AGN, $\alpha_{\rm r} \le 0.5$  \\
+GPS &Gigahertz-peaked radio source & see ref. 6\\
+HBL/HSP & High-energy cutoff BL Lac/blazar &  $\nu_{\rm synch~peak} \ge 10^{15}$ Hz 
+(ref. 7)\\
+HEG &High-excitation galaxy & ref. 8\\
+HPQ & High polarization quasar & $P_{\rm opt} \ge 3 \%$ (same as FSRQ)\\
+Jet-mode & & $L_{\rm kin} \gg L_{\rm rad}$ (same as LERG); see ref. 9\\
+IBL/ISP & Intermediate-energy cutoff BL Lac/blazar & $10^{14} \le \nu_{\rm synch~peak} \le 10^{15}$ Hz 
+(ref. 7)\\
+LINER & Low-ionization nuclear emission-line regions &  see ref. 9\\
+LLAGN & Low-luminosity AGN & see ref. 10\\
+LBL/LSP & Low-energy cutoff BL Lac/blazar & $\nu_{\rm synch~peak} < 10^{14}$ Hz 
+(ref. 7)\\
+LDQ & Lobe-dominated quasar & RL AGN, $f_{\rm core} < f_{\rm ext}$\\
+LEG &Low-excitation galaxy & ref. 8\\
+LPQ & Low polarization quasar & $P_{\rm opt} < 3 \%$ \\
+NLAGN &Narrow-line AGN & FWHM $\lesssim 1000$ km s$^{-1}$   \\
+NLRG &Narrow-line radio galaxy & RL Sey2 \\
+NLS1 & Narrow-line Seyfert 1 & ref. 11 \\
+OVV &Optically violently variable (quasar) & (same as FSRQ)\\
+Population A/B & & ref. 12\\
+Radiative-mode & & Seyferts and quasars; see ref. 9\\
+RBL & Radio-selected BL Lac & BL Lac selected in the radio band \\
+Sey1.5/1.8/1.9 & Seyfert 1.5, 1.8 or 1.9 & ref. 13 \\
+SSRQ &Steep-spectrum radio quasar & RL AGN, $\alpha_{\rm r} > 0.5$   \\
+USS & Ultra-steep spectrum source & RL AGN, $\alpha_{\rm r} > 1.0$ \\
+XBL & X-ray-selected BL Lac & BL Lac selected in the X-ray band\\
+XBONG & X-ray bright optically normal galaxy & AGN only in the X-ray band/weak lined AGN\\
+\hline
+\end{tabular}
+\scriptsize Table extracted from \cite{padovani17}. The top part of the table relates to major/classical classes. The last column describes themain properties. When these are too complex, it gives a reference to the first paper, which defined the relevant class or, when preceded by ``see'', a recent paper, which gives up-to-date details on it. Reference key: 1. \cite{padovani16}; 2. \cite{fanaroff74}; 3. \cite{giommi12}; 4. \cite{weymann81}; 5. \cite{ghisellini10}; 6.\cite{odea91}; 7. \cite{padovani95}; 8. \cite{laing94}; 9. \cite{heckman14};  10. \cite{ho08};11. \cite{osterbrock85}; 12. \cite{sulentic02}; 13. \cite{osterbrock81}.
+
+\label{sec1:tab_clas}
+\end{center}
+\end{table}
+
+\end{tiny}
+
+In this thesis we are focusing more in the classifications based on the X-ray and UV/optical wavelengths. The principal division at these energies is between type-1 and type-2 AGN. In the optical spectrum, a type-1 AGN is the one that shows broad emission lines with FWHM$\gtrsim$1000 km/s, edited in the BLR. Additionally, the optical spectrum presents narrow emission lines whose widths are comparable with the stellar velocity dispersion of the spheroidal component. The continuum from the accretion disk as it is low or not extinguished, is blue and frequently is more luminous than the host galaxy emission. Type-2 AGN show an optical spectrum that shows only narrow emission lines superimposed to the host galaxy spectrum. The broad emission lines in this case are obscured and so not detected in the spectrum. The continuum from the accretion disk is reddened and its emission is obscured as well.
+
+The type-1 Seyfert galaxies are also divided in terms of the FWHM of the \Hb and FeII emission. When the FWHM of the broad \Hb line is less than 2000 km/s, the \Hb/[OIII]$<$3, and there is significant contribution of FeII. However, as discussed in \cite{veroncetty00} and references therein, this division is rather arbitrary. 
+
+AGN emission features can be partially or totally outshined by stellar light from the galaxy (\citealt{severgnini03}, \citealt{georgantopoulos05}, \citealt{caccianiga07}, \citealt{caccianiga08}). Even that is normal that AGN contribution is the one that is more powerful in general, there are low luminosity AGN whose features are hard or impossible to measure. If these low luminosity sources have some level of extinction, its emission will be even harder to detect. This could make the source to be misclassified, or to be labeled as an XBONG.
+
+In the X-rays, the Unified Model assumes that the differences between type-1 and type-2 results from the amount of absorbing gas in the line of sight. There is no consensus in the limit to divide between type-1 and type-2. From \cite{caccianiga08}, it is used the limit \NH$>$4$\times$10$^{21}$\cm \cm, that comes from the limit \Av=2 mag, that normally obscures the broad lines in the spectrum. Other studies find the limit in \NH$>$10$^{22}$\cm\citep{ueda03}, and use this more conservative limit to ensure that this extinction is intrinsic from the AGN and does not come from Galactic gas .
+
+There is as well subdivisions in the type-1/type-2 classifications, due to the fact that there are intermediate types with detectable but weak broad emission lines. The relative strength of the broad lines with respect to the narrow lines that can not be explained simply by type-1 or type-2 provoked the need to add a subclassification. In this thesis we subclasiffy the AGN into type-1.0/1.2/1.5/1.8/1.9 following the scheme from \cite{whittle92}:
+
+\begin{itemize}
+\item \textbf{Seyfert 1}: Objects showing broad \Hb emission line and with [O III]/\Hb $<$ 0.3
+\item \textbf{Seyfert 1.2:} Objects showing broad \Hb and with 0.3 $<$ [O III]/\Hb $<$ 1
+\item \textbf{Seyfert 1.5:} Objects showing broad \Hb and with 1 $<$ [O III]/\Hb $<$ 4
+\item \textbf{Seyfert 1.8:} Objects showing broad \Hb and with 4 $<$ [O III]/\Hb
+\item \textbf{Seyfert 1.9:} Objects not showing broad \Hb, but having broad \Ha
+\item \textbf{Seyfert 2:} Objects without \Ha nor \Hb broad-line emission 
+
+\end{itemize}
+
+This subclassification due to the relative strength of the broad lines with respect to the narrow line emission has a direct relation with the partial obscuration of the central parts of an AGN.  The strength of the broad emission, emitted in regions close to the SMBH, is partially extinged from the torus. Meanwhile, narrow emission is emitted farer away from the SMBH, less affected by obscuration.
+
+Additionally, as mentioned in \cite{veroncetty06}, in the literature are examples of objects without UV/optical broad emission lines detected, but that they show Paschen broad emission lines in the infrared \citep{goodrich94}. This sources are classified as S1i, and this is explained because in this sources the high dust extinction make the UV/optical lines undetectable, but in the infrared, less affected by dust extinction, they can be detected. There are as well the S1p class, that do not show broad emission lines, but they are detected in the polarized spectrum (\citealt{antonucci85}, \citealt{miller90}, \citealt{tran92}).
+
+The observed radiation of an AGN is heavily affected by the obscuration of the material in the line of sight, so a good understanding on the extinction mechanisms is hence needed in order to explain the differences in the observed spectrum (ie. in classification) of active galaxies.
+
 
 \section{Absorption and obscuration}
 \label{sec1:abs}
 
-In this section we begin to introduce some aspects of importance in the thesis that are the differences between X-ray and optical extinction of AGN. We explain the effects of absorption in the X-rays and the effects of optical obscuration in UV/optical/IR.
 
--Gas absorption in the X-rays
+Once established the unified model of AGN, it is clear that the obscuration plays a main role in understanding the observed properties of AGN. The amount of obscuration in the line of sight will determine the classification in terms of type-1 or type-2. Understanding the absorption mechanisms in each band will help us to test the unified schemes and to recover the intrinsic properties of the active galaxies. To do so, in this section we explain the extinction models in the optical range and in the X-rays. 
 
--Extinction by dust in the UV/optical/IR
+The radiation emitted has to go through various materials until it reaches us. First it must cross the surrounding material of the AGN. Depending on the orientation, it will pass different quantity and density of dust and gas. As it was explained in the previous section, the emission that propagates in the radial direction of the disk, will be absorbed by the BLR and the torus and will be completely blocked. Meanwhile, the radiation that propagates outside of the torus covering angles will escape through the AGN practically unaffected. Outside of the nuclei, it will be affected by material in the interstellar medium of the host galaxy, such as dust lanes or gas clouds. Finally, it will be absorbed by the Galactic extinction. This last contribution to the incoming extinction is know and can be corrected in X-rays using the NHI Galactic maps \citep{dickey1990} and in the UV/optical assuming a measured dust-to-gas relation of the Milky Way, and thus converting \NH to \Av.
 
-We point out that this is not followed by a significant fraction of sources.
+Dust grains are the main ingredient responsible of UV/optical extinction via scattering and absorption of the emitted photons. As the effect of the scattering and absorption is more effective at wavelengths comparable to dust grains size ($\lambda$=2$\times \pi \times$a, being a the size of the dust grain), its effect is higher at lower wavelengths. Depending on the dust grains, the extinction can differ. In Fig.~\ref{sec1:fig_ao} we show different extinction models and the effect with the wavelength. There is as well a feature around 2175 \AA~that is the Carbon dip, that is explained by PAHs and graphite \citep{weingartner01}. This is detected in various models and absent in others. The dust. For QSO, the extinction model that best explain the reddening curve is the one from the Small Magellanic Cloud \citep{hopkins04}, being one of the most used the one from \cite{gordon03}. The absence of the Carbon dip favours an scenario where the small grains coagulates forming bigger grains \citep{maiolino01}.
 
--We explain the fraction of discordant sources and possible origin in the literature. Different dust to gas ratio, different absorption regions, ... and variability.
+
+ \begin{figure}
+ \centering
+ \includegraphics[width=10cm]{Chapter1_intro/ext.ps}
+    \caption{Different models of the ratios of dust extinction with respect to wavelength. Figure from \cite{noll05}.}
+ \label{sec1:fig_ao}
+ \end{figure}
+
+
+
+
+One of the methods used to measure the amount of optical reddening in the source is by computing the Balmer Decrements. This consists in compare the relative strengths of emission lines, mainly \Ha and \Hb, but other times it is used H$_{\epsilon}$ or even Paschen lines, and compare with the intrinsic relative strengths. For the most used case, that is \Ha/\Hb, we assume a case B recombination and optically thin photoionized plasma \citep{osterbrock89}. The intrinsic value is normally assumed to be around 3.1 for the NLR and 3.4 for the BLR, without a clear and universally accepted value. Recent studies are finding that this value have a considerable spread (\citealt{jin12}, \citealt{schnorr16}), as it depends on the conditions of the emitting region \citep{netzer13}. Other method to estimate the extinction is fit the AGN continuum using an extinction model and an AGN template. This approach is no extent of inconvenients, as there are sources with a continuum intrinsically different than the average. There are a population of AGN whose continuum is redder than the average, and so the method can confuse intrinsically red object with a small amount of reddening in the source.
+
+
+
+In a first order, the principal component that absorbs the X-ray photons is the gas in the line of sight, and within the gas, the hydrogen is the predominant element that contributes to obscure the X-ray emission. This is why the X-ray absorption is quantified in terms of the \NH column density. The probability for an X-ray photon to be absorbed follows Eq.\ref{sec1:eq_abs}: 
+
+\begin{equation}\label{sec1:eq_abs}
+P(E)=1-e^{(-\sigma(E) \times N_{\rm H})}
+\end{equation}
+
+Where $\sigma$(E) is a the cross section of the photoelectric absorption. The effect of the gas to the X-ray photons is higher at soft energies. In Fig.~\ref{sec1:fig_ax} we show the effects on a simple power law with different levels of gas in the line of sight.
+
+
+ \begin{figure}
+ \centering
+ \includegraphics[width=\textwidth]{Chapter1_intro/absx.ps}
+    \caption{The effect of gas absoption in the X-ray emission. Figure from the adaptation of \cite{wilman99} shown in \cite{singh13}.}
+ \label{sec1:fig_ax}
+ \end{figure}
+
+
+
+According to the Unified Model, one source with significant extinction in the optical range should appear as absorbed in the X-rays and vice versa, but this is not happening for 10-20\% of the sources. This fraction of discordant AGN appears indepently of the selection method (eg. \citealt{panessa02}, \citealt{caccianiga04}, \citealt{mateos05a}, \citeyear{mateos05b}, \citealt{mainieri05}, \citealt{caccianiga08}, \citealt{mateos10}, \citealt{corral11}, \citealt{scott12}, \citealt{page12}, \citealt{merloni14}). The mismatch between optical extinction and X-ray absorption described above is observed in both optical/infrared and X-ray selected samples at all redshifts. The origin of such apparent discrepancies remain unclear, and hence so it is the validity of the unified model for such AGN.
+
+
+There has been many attempts to explain the origin of the discrepancies for X-ray unabsorbed and optically type-2 AGN. For some AGN it is found that there is more dust in relation with the gas, although such cases are very rare (\citealt{caccianiga04}, \citealt{trippe10}, \citealt{huang12}, \citealt{malizia12}, \citealt{masetti12}, \citealt{mehdipour12}), so in this cases, the emission from the X-rays would arrive to us practically unaffected by the material in the line of sight, and the optical emission will be obscured. Other possibility is that the broad UV/optical lines are diluted by the host galaxy starlight, so in this case the source is classified as a type-2 AGN as there is not enough signal-to-noise to distinguish AGN features from the stellar emission. This is the case of XBONGS. In other objects, optical observations show an intrinsically high Balmer decrement for the Hydrogen broad emission lines, while the X-ray spectra show low absorption \citep{barcons03}. A dusty-ionized absorber can produce more relative absorption in the X-rays than in the optical emission \citep{della01}.
+
+
+Compton-thick AGN can be misclassified as an unabsorbed type-2 AGN, since the direct X-ray emission below 10 keV is completely absorbed and we would only detect scattered nuclear radiation (\citealt{braito03}, \citealt{akylas09}, \citealt{braito11}, \citealt{malizia12}), which might be mistaken by direct emission. This emission is about 1-3\% of the total X-ray emission (\citealt{gilli01}, \citealt{comastri04}, \citealt{georgantopoulos11a}), therefore comparing it to the luminosity at other energies (eg. the [OIII] line) can unveil if the source is a compton thick or not. Scattered nuclear radiation would have a lower power law index as well. The EW of the Fe line at 6.4 keV would be high as well due to the relative difference between the strength of the line and the scattered nuclear radiation.
+
+
+High gas-to-dust ratios could be a possible answer to high absorbed AGN in the X-rays but showing low or not extinction at UV/optical energies . The gas-to-dust ratios can increase due to dust sublimation close to the central X-ray source \citep{granato97}. Other explanation is that dust grains are biased to be bigger in the environment of AGN, more specifically small grains of dust coagulates forming larger grains \citep{maiolino01}, an explanation more plausible than the destruction of small grains in favour of larger grains, especially given that the PAHs from the Carbon dip at 2175 \AA~is not normally present in AGNs \citep{hopkins04}. Eclipsing material coming from the dust-free BLR can as well act as an additional absorption of the X-ray photons leaving UV/optical photons less affected. As the angle of aperture of the BLR is not known, nor if is similar in all AGNs, this could be a valid scenario to explain this sources. 
+
+An independent explanation without having to invoke to non standard physics or obscuring material is that there is variability in the sources. If the optical and X-ray data has been taken at different dates, we can not discard that the discrepancies are originated by eclipses of gas and/or dusty clouds in the line of sight. The clumpy structure model of the BLR and the torus would be compatible with this explanation.  In fact, there are reports in the literature of changing look sources (\citealt{lamassa15}, \citealt{miniutti14}). Even considering variability with simultaneous optical and X-ray observations, there are sources whose classification in these energies are discordant (\citealt{corral05}, \citealt{bianchi08}, \citeyear{bianchi12}).
+
 
 
 \section{Aims of this thesis}
@@ -73,6 +364,7 @@ We point out that this is not followed by a significant fraction of sources.
 Describe the aims of the papers in this thesis.
 
 Summarizing, along this work we will tackle the following issues:
+
 \begin{enumerate}
 \item One
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2018.1.18)  28 FEB 2018 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2018.1.18)  16 APR 2018 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,53 +1072,53 @@ Package: balance 1999/02/23 4.3 (PWD)
 ) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 30.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 30.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1148,11 +1148,11 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \JustifyingParindent=\skip83
 )
 Package caption Info: listings package v1.2 (or newer) detected on input line 3
-0.
+2.
 Package caption Info: longtable package v3.15 (or newer) detected on input line
- 30.
+ 32.
 Package caption Info: rotating package v2.0 (or newer) detected on input line 3
-0.
+2.
 \c@lstlisting=\count158
 \AtBeginShipoutBox=\box63
 
@@ -1167,7 +1167,7 @@ Package color Info: Driver file: dvips.def on input line 144.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1177,9 +1177,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
@@ -1203,12 +1203,12 @@ File: logos/ifca.ps Graphic file (type eps)
  Declaraci\'on de Autor\'ia
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
@@ -1277,11 +1277,14 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [17])
+) [17] [18])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [18]
+ [19]
+[20
+
+]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -1289,10 +1292,9 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [19
+ [21
 
-
-] [20
+] [22
 
 ]
 ------------------------------------------------------------------------------
@@ -1302,9 +1304,9 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [21
+ [23
 
-] [22
+] [24
 
 ] (./Chapter1_intro/chapter1.tex
 Chapter 1.
@@ -1314,74 +1316,125 @@ Chapter 1.
 [1
 
 
-] [2]) (./Chapter2_data/chapter2.tex [3] [4
-
 ]
+File: Chapter1_intro/umagn.ps Graphic file (type eps)
+ <Chapter1_intro/umagn.ps>
+File: Chapter1_intro/agnanatomy.ps Graphic file (type eps)
+ <Chapter1_intro/agnanatomy.ps> [2] [3] [4]
+File: Chapter1_intro/agnsed.ps Graphic file (type eps)
+
+<Chapter1_intro/agnsed.ps> [5] [6]
+File: Chapter1_intro/xagn.ps Graphic file (type eps)
+ <Chapter1_intro/xagn.ps> [7]
+File: Chapter1_intro/test_shen_agn.ps Graphic file (type eps)
+
+<Chapter1_intro/test_shen_agn.ps> [8] [9]
+File: Chapter1_intro/clasagn.ps Graphic file (type eps)
+ <Chapter1_intro/clasagn.ps> [10]
+Overfull \hbox (63.1404pt too wide) in paragraph at lines 210--269
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 79.3184pt on input line 272.
+
+[11] [12]
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 287.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [13]
+[14]
+File: Chapter1_intro/ext.ps Graphic file (type eps)
+ <Chapter1_intro/ext.ps> [15]
+File: Chapter1_intro/absx.ps Graphic file (type eps)
+ <Chapter1_intro/absx.ps> [16] [17])
+(./Chapter2_data/chapter2.tex [18]
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Data
+ 2 Instrumentation
 ------------------------------------------------------------------------------
-) (./Chapter3_methods/chapter3.tex [5] [6]
+[19
+
+]) (./Chapter3_methods/chapter3.tex [20]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 Methods
+ 3 The BUXS Sample
 ------------------------------------------------------------------------------
-[7
+[21
 
-]) (./Chapter4_xsh/chapter4.tex [8]
+]) (./Chapter4_xsh/chapter4.tex [22]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Analysis of XSHOOTER
+ 4 Detailed modeling of two sources
 ------------------------------------------------------------------------------
-[9
+[23
 
-] [10]) (./Chapter5_buxs/chapter5.tex [11] [12
+] [24]) (./Chapter5_buxs/chapter5.tex [25] [26
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Analysis of BUXS sample
 ------------------------------------------------------------------------------
-[13]) (./Chapter6_conc/chapter6.tex [14]
+[27]) (./Chapter6_conc/chapter6.tex [28]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions and future work
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixA.tex [15
+) (./Appendices/AppendixA.tex [29
 
-] [16
+] [30
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A Tables 
 ------------------------------------------------------------------------------
-) [17] [18
+) [31] [32
 
 ]
 ------------------------------------------------------------------------------
  References
 ------------------------------------------------------------------------------
-(./Thesis.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
- [19
+(./Thesis.bbl [33
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+] [34] [35] [36] [37] [38] [39] [40] [41]
+Underfull \hbox (badness 1297) in paragraph at lines 466--467
+[]\OT1/txr/m/n/10 Beckmann, V. and Shrader, C.: 2012, \OT1/txr/m/it/10 Pro-ceed
+-ings of "An IN-TE-GRAL view of the high-energy sky
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 466--467
+\OT1/txr/m/it/10 (the first 10 years)" - 9th IN-TE-GRAL Work-shop and cel-e-bra
+-tion of the 10th an-niver-sary of the
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 466--467
+\OT1/txr/m/it/10 launch (IN-TE-GRAL 2012). 15-19 Oc-to-ber 2012. Bib-lio-theque
+ Na-tionale de France, Paris, France.
+ []
+
+[42])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
  (./Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 69F25A8DE88B32F478010FA076207F32;12543.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+(rerunfilecheck)             Checksum: 122C093A061ADA2DEE7A24373DAA20AA;14132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 13453 strings out of 494947
- 182259 string characters out of 6181007
- 269596 words of memory out of 5000000
- 16521 multiletter control sequences out of 15000+600000
- 23370 words of font info for 61 fonts, out of 8000000 for 9000
+ 13727 strings out of 494947
+ 185408 string characters out of 6181007
+ 284390 words of memory out of 5000000
+ 16781 multiletter control sequences out of 15000+600000
+ 24431 words of font info for 63 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 36i,11n,45p,500b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,45p,3200b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (41 pages, 109748 bytes).
+Output written on Thesis.dvi (67 pages, 313864 bytes).

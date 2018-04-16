@@ -145,8 +145,8 @@
 %
 
 %%%%%%%%%%%%%
-\newcommand{\Msun}{M_\odot }
-\newcommand{\Lsun}{L_\odot }
+\newcommand{\Msol}{M_\odot }
+\newcommand{\Lsol}{L_\odot }
 \newcommand{\ifm}[1]{\relax\ifmmode#1\else$\mathsurround=0pt #1$\fi}
 \newcommand{\kms}{\ifmmode\,{\rm km}\,{\rm s}^{-1}\else km$\,$s$^{-1}$\fi}
 \newcommand{\kpc}{\ifmmode\,{\rm kpc}\else kpc\fi}
@@ -168,6 +168,26 @@
 \newcommand{\RAGN}{R^\mathrm{AGN}\xspace}
 \newcommand{\RSB}{R^\mathrm{SB}\xspace}
 \newcommand{\grad}{\hspace{-2mm}$\phantom{a}^{\circ}$\xspace}
+
+
+\newcommand{\Ha}{H$_\alpha$\xspace} 
+\newcommand{\Hb}{H$_\beta$\xspace} 
+\newcommand{\He}{H$_\epsilon$\xspace} 
+\newcommand{\Av}{A$_{\rm V}$\xspace} 
+\newcommand{\NH}{N$_{\rm H}$\xspace}
+\newcommand{\dgr}{A$_{\rm V}$/N$_{\rm H}$\xspace}
+\newcommand{\MSMBH}{M$_{\rm SMBH}$\xspace}
+\newcommand{\Mhost}{M$_{\rm Host}$\xspace}
+\newcommand{\cm}{cm$^{-2}$\xspace}
+
+\newcommand{\G}{\textit{$\Gamma$}\xspace}
+\newcommand{\chisq}{$\chi^2$\xspace}
+\newcommand{\dchisq}{$\Delta\chi^2$\xspace}
+\newcommand{\Lbol}{L$_{\rm bol}$\xspace}
+\newcommand{\Lcont}{L$_{\rm 5100}$\xspace}
+\newcommand{\Lx}{L$_{2-10~keV}$\xspace}
+\newcommand{\um}{$\mu$m\xspace}
+
 
 %%%%%%%%%%%%%%%%%%%%
 

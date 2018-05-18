@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2018.1.18)  16 APR 2018 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2018.1.18)  16 MAY 2018 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,85 +1356,98 @@ Chapter 2.
 ------------------------------------------------------------------------------
 [19
 
-]) (./Chapter3_methods/chapter3.tex [20]
+]
+File: Chapter2_data/opac.ps Graphic file (type eps)
+ <Chapter2_data/opac.ps>
+File: Chapter2_data/trans.ps Graphic file (type eps)
+ <Chapter2_data/trans.ps> [20]
+File: Chapter2_data/xmm.ps Graphic file (type eps)
+
+<Chapter2_data/xmm.ps> [21] [22] [23]
+File: Chapter2_data/xsh.ps Graphic file (type eps)
+ <Chapter2_data/xsh.ps> [24] [25] [26]
+[27] [28]
+File: Chapter2_data/boss.ps Graphic file (type eps)
+ <Chapter2_data/boss.ps> [29] [30]) (./Chapter3_methods/chapter3.tex
+[31] [32
+
+]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 The BUXS Sample
 ------------------------------------------------------------------------------
-[21
-
-]) (./Chapter4_xsh/chapter4.tex [22]
+[33]) (./Chapter4_xsh/chapter4.tex [34]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Detailed modeling of two sources
 ------------------------------------------------------------------------------
-[23
+[35
 
-] [24]) (./Chapter5_buxs/chapter5.tex [25] [26
+] [36]) (./Chapter5_buxs/chapter5.tex [37] [38
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Analysis of BUXS sample
 ------------------------------------------------------------------------------
-[27]) (./Chapter6_conc/chapter6.tex [28]
+[39]) (./Chapter6_conc/chapter6.tex [40]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions and future work
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixA.tex [29
+) (./Appendices/AppendixA.tex [41
 
-] [30
+] [42
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A Tables 
 ------------------------------------------------------------------------------
-) [31] [32
+) [43] [44
 
 ]
 ------------------------------------------------------------------------------
  References
 ------------------------------------------------------------------------------
-(./Thesis.bbl [33
+(./Thesis.bbl [45
 
-] [34] [35] [36] [37] [38] [39] [40] [41]
-Underfull \hbox (badness 1297) in paragraph at lines 466--467
+] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
+Underfull \hbox (badness 1297) in paragraph at lines 469--470
 []\OT1/txr/m/n/10 Beckmann, V. and Shrader, C.: 2012, \OT1/txr/m/it/10 Pro-ceed
 -ings of "An IN-TE-GRAL view of the high-energy sky
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 466--467
+Underfull \hbox (badness 1728) in paragraph at lines 469--470
 \OT1/txr/m/it/10 (the first 10 years)" - 9th IN-TE-GRAL Work-shop and cel-e-bra
 -tion of the 10th an-niver-sary of the
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 466--467
+Underfull \hbox (badness 1436) in paragraph at lines 469--470
 \OT1/txr/m/it/10 launch (IN-TE-GRAL 2012). 15-19 Oc-to-ber 2012. Bib-lio-theque
  Na-tionale de France, Paris, France.
  []
 
-[42])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
- [43]
+ [56]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
  (./Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 243.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 122C093A061ADA2DEE7A24373DAA20AA;14132.
+(rerunfilecheck)             Checksum: A1EB8C337E3C953A77E09AD5395561AD;16649.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 13727 strings out of 494947
- 185408 string characters out of 6181007
- 284390 words of memory out of 5000000
- 16781 multiletter control sequences out of 15000+600000
+ 13781 strings out of 494947
+ 186159 string characters out of 6181007
+ 296554 words of memory out of 5000000
+ 16829 multiletter control sequences out of 15000+600000
  24431 words of font info for 63 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 36i,12n,45p,3200b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,45p,5459b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (67 pages, 313864 bytes).
+Output written on Thesis.dvi (80 pages, 407232 bytes).
